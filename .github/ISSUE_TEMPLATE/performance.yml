@@ -1,0 +1,19 @@
+name: ⚡ Mejora de rendimiento
+description: Reporta una posible optimización de rendimiento
+labels: [performance]
+body:
+  - type: textarea
+    id: area
+    attributes:
+      label: Área afectada
+      description: Describe qué parte del sistema crees que puede mejorarse.
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidencia
+      description: Comparte benchmarks, trazas o detalles observados.
+    validations:
+      required: false

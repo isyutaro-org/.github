@@ -1,0 +1,19 @@
+name: 🧪 Mejora de Tests
+description: Sugerencia para agregar o mejorar pruebas
+labels: [tests]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: ¿Qué pruebas faltan o deben mejorar?
+      description: Indica la parte del código que necesita pruebas.
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Justificación
+      description: ¿Por qué esta mejora es importante?
+    validations:
+      required: false

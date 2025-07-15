@@ -1,0 +1,28 @@
+name: 🚀 Feature Request
+description: Sugerencia de nueva funcionalidad o mejora
+labels: [feature]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Descripción
+      description: Explica qué funcionalidad te gustaría ver añadida.
+      placeholder: "Quiero que al hacer clic en X, suceda Y..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivación
+      description: ¿Por qué es importante o útil esta funcionalidad?
+    validations:
+      required: true
+
+  - type: input
+    id: related
+    attributes:
+      label: ¿Está relacionado con algún issue existente?
+      placeholder: "#123, #456"
+    validations:
+      required: false

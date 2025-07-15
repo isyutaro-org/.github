@@ -1,0 +1,19 @@
+name: 📚 Documentación
+description: Sugerencia o corrección de documentación
+labels: [docs]
+body:
+  - type: textarea
+    id: issue
+    attributes:
+      label: ¿Qué parte de la documentación se debe mejorar?
+      description: Enlace o sección del documento.
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Sugerencia
+      description: ¿Cómo debería ser corregido o ampliado?
+    validations:
+      required: true

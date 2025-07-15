@@ -1,0 +1,40 @@
+name: 🐛 Bug Report
+description: Reporta un error o comportamiento inesperado
+labels: [fix, bug]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: ¿Qué pasó?
+      description: Describe el error observado.
+      placeholder: "Al intentar hacer X, sucede Y..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: ¿Qué esperabas que ocurriera?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Pasos para reproducir
+      description: Proporciona pasos claros para reproducir el error.
+      placeholder: |
+        1. Ir a...
+        2. Hacer clic en...
+        3. Observar...
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: Entorno
+      description: Información del sistema (SO, versión, navegador, etc.)
+      placeholder: "macOS 13.5, Chrome 114, Node.js v18"
+    validations:
+      required: false
